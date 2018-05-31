@@ -47,6 +47,44 @@ table {
 	border-spacing: 0;
 }
 
+/*
+  ========================================
+  Tabbed pages
+  ========================================
+*/
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  background-color: #293f50;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
 
 /*
   ========================================
@@ -143,13 +181,11 @@ Primary Header
   font-weight: 100;
   letter-spacing: .5px;
   line-height: 44px;
-  padding: 40px 0 22px 0;
+  margin-left: 20px;
   text-transform: uppercase;
 
 }
 .slog {
-  position: absolute;
-  float: left;
   font-size: 14px;
 }
 .primary-header a,
@@ -182,12 +218,9 @@ Primary Header
 .container,
 .grid {
   margin: 0 auto;
-  width: 960px;
+  width: 100%;
 }
-.container {
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 
   
   /*
@@ -196,7 +229,7 @@ Primary Header
   ========================================
 */
 
-h1, h3, h4, h5, p {
+h3, h4, h5, p {
     margin-bottom: 22px;
   }
   h1 {
@@ -230,7 +263,7 @@ h1, h3, h4, h5, p {
     font-style: italic;
   }
   .tagline {
-    margin: 66px 0 22px 0;
+    margin: 30px 20px 22px 20px;
     text-align: right;
   }
   .primary-nav {
