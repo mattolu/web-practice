@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+html, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -28,8 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -81,10 +80,44 @@ body, html {
   color: white;
   background-color: #293f50;
   display: none;
-  padding: 100px 20px;
+  padding: 20px 20px;
   height: 100%;
 }
 
+
+
+/*
+  ========================================
+  accordion
+  ========================================
+*/
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #293f50;
+  color: rgb(252, 252, 252);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color:blue;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
 
 /*
   ========================================
@@ -141,15 +174,12 @@ body, html {
 .row-alt{
   min-width: 960px;
 }
-.row {
-  background: #fff;
-  padding: 66px 0 44px 0;
-}
+
 .row-alt {
    background: #cbe2c1;
-   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+   background: -webkit-linear-gradient(to right, #a1d3b0, #a09cd8);
+   background: -moz-linear-gradient(to right, #a1d3b0, #a09cd8);
+   background: linear-gradient(to right, #a1d3b0, #a09cd8);
    padding: 44px 0 22px 0;
  }
 
@@ -176,6 +206,7 @@ Primary Header
 */
 .logo {
   border-top: 4px solid #648880;
+  padding-top: 10px;
   float: left;
   font-size: 48px;
   font-weight: 100;
@@ -336,7 +367,7 @@ h3, h4, h5, p {
 .hero {
   color: #fff;
   line-height: 44px;
-  padding: 22px 80px 66px 80px;
+  padding: 22px 80px 66px 10px;
   text-align: center;
 }
 .hero h2 {

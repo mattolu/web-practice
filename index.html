@@ -18,8 +18,8 @@
 <!--<h1>Seminar and Conferences made easy</h1>-->
 <h6 class="slog tagline"> &hellip;Seminar and Conferences made easy </h6>    
         <h3 class="tagline"> Upcoming: August 24&ndash;26th &mdash; Chicago, IL</h3>
-<button class="tablink" onclick="openPage('Home', this, 'blue')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('Schedule', this, 'blue')" >Schedule</button>
+<button class="tablink" onclick="openPage('Home', this, 'blue')">Home</button>
+<button class="tablink" onclick="openPage('Schedule', this, 'blue')" id="defaultOpen">Schedule</button>
 <button class="tablink" onclick="openPage('Speakers', this, 'blue')">Speakers</button>
 <button class="tablink" onclick="openPage('Venue', this, 'blue')">Venue</button>
 <button class="tablink" onclick="openPage('Register', this, 'blue')">Register</button>
@@ -33,51 +33,17 @@
             out without the research world getting to know about it. 
             We are devoted to making your work well presented to the populace.
         Do you want to be a part of this?</p>
-        <a href="register.html" class="btn btn-alt">Register now</a>
+        <a href="#reg" class="btn btn-alt">Register now</a>
     </section>
 
-    <section class="row">
-    <div class="grid"><!-- 
-            Speakers 
-        --><section class="teaser col-1-3">
-                <h5>Speakers</h5>
-                    <a href="speakers.html" >
-                        <img src="img/home/speakers.jpg" alt="Professional Speaker">
-                        <h3>World-Class Speakers</h3>
-                    </a>
-                    <p>Joining us from all around the world are over twenty fantastic speakers, 
-                            here to share their stories.</p>
-                    
-            </section><!--
-                Schedule 
-            --><section class="teaser col-1-3">
-                    <h5>Schedule</h5>
-                    <a href="schedule.html" >
-                        <img src="img/home/schedule.jpg" alt=" Schedule">
-                        <h3>Three inspiring days</h3>
-                    </a>
-                     <p>Meet the world renowned Speakers</p>
-                   
-            </section><!-- 
-                Venue
-            --><section class="teaser col-1-3">
-                    <h5>Venue</h5>
-                    <a href="venue.html" >
-                            <img src="img/home/venue.jpg" alt="Chicago venue">
-                        <h3>Vent Mall</h3>
-                    </a>
-                    <p>In the heart of the great city of Ibadan</p>
-
-            </section>
-            
-        </div>
-    </section>
+    
     <!-- Footer-->
     <footer class="primary-footer container group">
 
             <small class="primary-footer-small">&copy; SemiConference</small>
-</div>
+</footer>
 
+</div>
  <!-- Schedule tab -->
 
 <div id="Schedule" class="tabcontent">
@@ -96,8 +62,8 @@
     
     <!-- Main content -->
     
-    <section class="row">
-        <div class="container">
+    <button class="accordion">Workshops</button>
+        <div class="panel">
     
             <!-- Workshops -->
     
@@ -159,9 +125,11 @@
                 </tr>
                 </tbody>
             </table>
+        </div>
     
             <!-- Conference -->
-    
+            <button class="accordion">Conference Day 1</button>
+            <div class="container panel">
             <table>
                 <thead>
                 <tr>
@@ -298,9 +266,11 @@
                 </tr>
                 </tbody>
             </table>
+            </div>
     
             <!-- Conference -->
-    
+            <button class="accordion">Conference Day 2</button>
+            <div class="container panel">
             <table>
                 <thead>
                 <tr>
@@ -441,10 +411,212 @@
         </div>
     </section>
 </div>
-     <!--
-    <p>Are you an academician planning to join the league of great academicians...</p>
-    -->
+     <!-- Speakers -->
+    <div id="Speakers" class="tabcontent">
+ <!-- Lead -->
+        <div class="lead row-alt container">
+  
+          <h1>Speakers</h1>
+  
+          <p>We&#8217;re happy to welcome over twenty speakers to present on the industry&#8217;s latest technologies. Prepare for an inspiration extravaganza.</p>
+  
+        </div>
+    
+  
+  <!-- Main content -->
+  
+  <section class="row">
+      <div class="grid">
+  
+        <!-- Adam Connor -->
+  
+        <section class="speaker" id="adam-connor">
+  
+          <div class="col-2-3">
+  
+            <h2>Adam Connor</h2>
+            <h5>Lights! Camera! Interaction! Design Inspiration from Filmmakers</h5>
+  
+            <p>Films succeed in evoking responses and engaging audiences only with a combination of well-written narrative and effective storytelling technique. It&#8217;s the filmmaker&#8217;s job to put this together. To do so they&#8217;ve developed processes, tools and techniques that allow them to focus attention, emphasize information, foreshadow and produce the many elements that together comprise a well-told story.</p>
+  
+            <p>With this workshop, we&#8217;ll revisit the topic of using stories in design and expand on the technical aspects used in film to communicate. We&#8217;ll look at some tools used in film, such as cinematic patterns, beat sheets, and storyboards. We&#8217;ll consider why they&#8217;re used and how we might look to them for inspiration.</p>
+  
+            <h5>About Adam</h5>
+  
+            <p>Adam Connor is a designer, illustrator and speaker passionate about collaboration, communication, creativity and storytelling. As an Experience Design Director with Mad*Pow, Adam combines 10+ years of experience in interaction and experience design with a background in computer science, film, and animation to create effective and easy-to-use digital products and services. He believes that no matter how utilitarian a tool is, at the core of its creation lies a story; uncovering that story is key to its success. Occasionally, he shares his perspectives on design at <a href="http://adamconnor.com/">adamconnor.com</a> and <a href="http://www.discussingdesign.com/">discussingdesign.com</a>.</p>
+  
+          </div><!--
+  
+          --><aside class="col-1-3">
+            <div class="speaker-info">
+  
+              <img src="img/speakers/adam-connor.jpg" alt="Adam Connor">
+  
+              <ul>
+                <li><a href="https://twitter.com/adamconnor">@adamconnor</a></li>
+                <li><a href="http://adamconnor.com/">adamconnor.com</a></li>
+              </ul>
+  
+            </div>
+          </aside>
+  
+        </section>
+  
+        <!-- AJ Self -->
+  
+        <section class="speaker" id="aj-self">
+  
+          <div class="col-2-3">
+  
+            <h2>AJ Self</h2>
+            <h5>(You Should Be) Testing Your JavaScript</h5>
+  
+            <p>JavaScript applications frequently utilize battle-tested libraries like jQuery, AngularJS, Backbone.js and more, but how can we be sure that our code is ready for production? This talk will share tips on how writing tests can be written easily and quickly and how to remove buggy code through testing.</p>
+  
+            <h5>About AJ</h5>
+  
+            <p>AJ is a software engineer specializing in JavaScript working at Belly in Chicago. Lately he has been writing applications with AngularJS and loving it. When not coding he is out loving the outdoors with his dog, Sunshine.</p>
+  
+          </div><!--
+  
+          --><aside class="col-1-3">
+            <div class="speaker-info">
+  
+              <img src="img/speakers/aj-self.jpg" alt="AJ Self">
+  
+              <ul>
+                <li><a href="https://twitter.com/ajself">@ajself</a></li>
+                <li><a href="http://www.ajself.com/">ajself.com</a></li>
+              </ul>
+  
+            </div>
+          </aside>
+  
+        </section>
+        </div>
+  
+    </div>
 
+ <!-- Venue-->
+ <div id="Venue" class="tabcontent">
+        <!-- Lead -->
+               <div class="lead row-alt container">
+         
+                    <h1>Venue</h1>
+  
+          <p>The conference is held at The Chicago Theatre, a beautiful historical landmark. The conference hotel, Hotel Chicago, is a short walk away down State Street.</p>
+  
+        </div>
+      </section>
+
+       <!-- Main content -->
+
+    <section class="row">
+            <div class="grid">
+      
+              <!-- Chicago Theatre -->
+      
+              <section class="venue-theatre">
+      
+                <div class="col-1-3">
+                  <h2>Chicago Theatre</h2>
+                  <p>175 N State St <br> Chicago, IL 60601</p>
+                  <p><a href="http://www.thechicagotheatre.com/">thechicagotheatre.com</a> <br> (312) 462-6300</p>
+                </div><!--
+      
+                --><iframe class="venue-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x880e2ca55810a493%3A0x4700ddf60fcbfad6!2schicago+theatre!5e0!3m2!1sen!2sus!4v1388701393606"></iframe>
+      
+              </section>
+      
+              <!-- Hotel Chicago -->
+      
+              <section class="venue-hotel">
+      
+                <div class="col-1-3">
+                  <h2>Hotel Chicago</h2>
+                  <p>333 N Dearborn St <br> Chicago, IL 60654</p>
+                  <p><a href="http://thehotelchicago.com/">thehotelchicago.com</a> <br> (312) 245-0333</p>
+                </div><!--
+      
+                --><iframe class="venue-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x880e2cb1da049173%3A0xa5c91d255a775f0b!2sHotel+Sax+Chicago%2C+North+Dearborn+Street%2C+Chicago%2C+IL!5e0!3m2!1sen!2sus!4v1388702493978"></iframe>
+      
+              </section>
+            
+                </div>
+   </div>
+
+       <!-- Register -->
+       <div id="Register" class="tabcontent">
+            <!-- Lead -->
+                   <div class="lead row-alt container">
+             
+                        <h1>Register</h1>
+
+                        <p>Register <a href="#reg">here</a>, the early bed registration would avail you the
+                            opportuninty to have a great reduction </p>
+                
+                    </div>
+                </section>
+                
+                <section class="row">
+                    <div class="grid">
+                        <section class="col-2-3">
+                
+                            <h2>Purchase a Conference Pass</h2>
+                            <h5>$99 per Pass</h5>
+                
+                            <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may
+                                be purchased within the same order, so feel free to bring a friend or two along.
+                                Once your order is finished we&#8217;ll follow up and provide a receipt for your
+                                purchase. See you soon!</p>
+                
+                            <h4>Why Attend?</h4>
+                
+                            <ul class="why-attend">
+                                <li>Over twenty world-class speakers</li>
+                                <li>One full day of workshops and two full days of presentations</li>
+                                <li>Hosted at The Chicago Theatre, a historical landmark</li>
+                                <li>August in Chicago is simply amazing</li>
+                            </ul>
+                        </section><!--
+                
+                        --><form class="col-1-3" action="#" method="post" id="reg">
+                
+                            <fieldset class="register-group">
+                
+                                <label>
+                                    Name
+                                    <input type="text" name="name" placeholder="Full name" required>
+                                </label>
+                
+                                <label>
+                                    Email
+                                    <input type="email" name="email" placeholder="Email address" required>
+                                </label>
+                
+                                <label>
+                                    Number of Passes
+                                    <select name="quantity" required>
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </label>
+                
+                                <label>
+                                    Comments
+                                    <textarea name="comments"></textarea>
+                                </label>
+                
+                            </fieldset>
+                            <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+                
+                        </form>
+                
+                    </div>
+       </div>
     <!-- Division
     <div class="social">
         <p>I may be found on ....</p>
